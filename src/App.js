@@ -1,12 +1,12 @@
 import React from 'react';
-import { Counter } from './features/registration/Registration';
+import { Registration } from './features/registration/Registration';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
+        <Registration />
       </header>
     </div>
   );
