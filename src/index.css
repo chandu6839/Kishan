@@ -221,4 +221,24 @@ a:-webkit-any-link {
 .MuiContainer-root > div{
   margin: 20px 0;
 }
-@media screen and (max-width:767px){.w-nav-brand{padding-left:10px}}
+.w-icon-nav-menu:before {
+    content: "\e302";
+}
+.css-gcwvw8-MuiAutocomplete-root {
+  width: 100% !important;
+}
+@media screen and (max-width: 991px){
+.w-nav[data-collapse="medium"] .w-nav-button {
+    display: block;
+}
+.MuiFormControl-root {
+  margin-right: 0!important;
+}
+}
+
+@media screen and (max-width:767px){
+  .w-nav-brand{padding-left:10px}
+  .MuiFormControl-root {
+  margin-right: 0!important;
+}
+}
