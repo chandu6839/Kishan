@@ -11,6 +11,7 @@ import InputLabel from '@mui/material/InputLabel';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 // import TextField from '@mui/material/TextField';
+import SimpleButton from '@chandu6839/simplebutton';
 import Header from "../header/header";
 
 import {
@@ -91,6 +92,7 @@ export function Registration() {
               <TextField id="fullWidth" />
           </FormControl>
           </Container>
+          <SimpleButton children="simplebutton"/>
       </div>
     </div>
   );
